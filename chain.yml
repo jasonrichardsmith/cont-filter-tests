@@ -1,0 +1,19 @@
+Chain:
+- Name: 'cat'
+  Domain: 'bash'
+  Version: '1.0'
+  Command: 'cat'
+  Arguments:
+- Name: 'grep'
+  Domain: 'bash'
+  Version: '1.0'
+  Command: 'grep'
+  Arguments:
+          - 'wrong'
+- Name: 'xargs'
+  Domain: 'bash'
+  Version: '1.0'
+  Command: 'xargs'
+  Arguments:
+          - '-n'
+          - '3'
